@@ -1,0 +1,100 @@
+.slide img{
+    height: 600px;
+}
+.mylogin input{
+    width: 366px;
+    border-radius: 9px;
+    padding: 10px
+}
+.mylogin h2{
+    margin: 25px 0px
+}
+#payment input{
+    width: 366px;
+    border-radius: 9px;
+    padding: 10px
+}
+#payment h2{
+    margin: 25px 0px
+}
+#insidecard{
+    width: 500px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 20px grey;
+}
+.boxelement{
+    display: flex;
+    flex-direction: row;
+}
+.innerbox label{
+    display: block;
+}
+.innerbox{
+    padding: 19px;
+    font-size: 20px;
+}
+#city{
+    font-size: 20px;
+    padding: 10px 25px;
+}
+        #practice{
+        border: 2px solid #2980b9;
+        padding: 10px 50px;
+        margin: 10px 0px;
+        font-size: 20px;
+         font-style: italic;
+         text-decoration: none;
+         color: #c0392b;
+         position: relative;
+         transition: all 2s ease;
+         height: 60px;
+    width: 100px;
+      }
+      #practice::after{
+        background: #2980b9;
+        position: absolute;
+        transition: all 2s ease;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        color: white;
+        z-index: -1;
+    }
+     
+      #practice:hover{
+        color: white;
+
+      }
+      #practice:hover::after{
+        width: 100%;
+      }
+      .fa,
+      .fas {
+        font-family: 'FontAwesome';
+      }
+      
+      ul li a {
+        font-size: 1.5rem;
+        color: #343a40;
+      }
+      
+      ul li a.cart:hover {
+        text-decoration: none;
+        color: #d60e96;
+      }
+      
+      ul li a.cart .cart-basket {
+        font-size: .6rem;
+        position: absolute;
+        top: -6px;
+        right: -5px;
+        width: 15px;
+        height: 15px;
+        color: #fff;
+        background-color: #418deb;
+        border-radius: 50%;
+      }
