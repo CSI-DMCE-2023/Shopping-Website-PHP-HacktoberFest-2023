@@ -5,7 +5,9 @@ if(isset($_POST['signupform'])){
     $username1=$_POST["username"];
     $new_sql="SELECT * FROM `signup` WHERE username='$username1'";
     $result1=mysqli_query($conn,$new_sql);
-    if(mysqli_num_rows($result1)>0){
+    if ($result1 === false) {
+        echo "Query Error: " . mysqli_error($conn);
+    } else if(mysqli_num_rows($result1)>0){
         echo "username already exist!!!!";
     }
     else{
