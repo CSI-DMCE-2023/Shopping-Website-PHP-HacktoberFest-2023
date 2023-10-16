@@ -2,7 +2,7 @@
 $server="localhost";
 $username="root";
 $pass="";
-$dbname="shopping";
+$dbname="hacktoberfest";
 $conn=mysqli_connect($server,$username,$pass,$dbname);
 if($conn){
     echo "successfully connected";
