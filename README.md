@@ -30,7 +30,7 @@ Welcome to CSI DMCE! We appreciate your interest in contributing. Before you get
    ```bash
    git clone https://github.com/ayusshh19/Hacktoberfest-php.git
    ```
-- Make Database namec- "shopping" in your phpmyadmin
+- Make Database namec- "hacktoberfest" in your phpmyadmin
 - run project and make changes with respect to issues
   
 #### Commit your changes:
