@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <title>Hello, world!</title>
 </head>
@@ -37,6 +38,10 @@
     }
     .btn:hover::after{
         width: 100%;
+    }
+
+    footer{
+        margin-top: 50px;
     }
 </style>
 <body>
@@ -277,9 +282,127 @@
            </div>
         </div>
     </div>
-    <footer class="bg-secondary bottom-0 my-0">
-        <p style="text-align: center;">copyright.ayushshukla@gmail.com</p>
-    </footer>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+        </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Shopping
+            </h6>
+            <p>
+            Discover a world of endless shopping possibilities at Shopping, where quality meets convenience in every click.
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Products
+            </h6>
+            <p>
+                <a href="#!" class="text-reset">T-shirts</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Shirts</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Hoodies</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Jackets</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+            </h6>
+            <p>
+                <a href="#!" class="text-reset">Home</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">About</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Contact</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Help</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Airoli-10012, India</p>
+            <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                ayush.shukla@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ayush.shukla@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
