@@ -43,13 +43,70 @@
     footer{
         margin-top: 50px;
     }
+
+    #insidecard{
+        width: 80%;
+    }
+
+    
+    .navbar-toggler-icon {
+        color: #fff !important; /* Set a different color for the icon */
+    }
+
+    .navbar-toggler:focus {
+    box-shadow: 0 0 0 0 !important;
+    }
+
+    @media screen and (max-width: 600px) {
+        #res1{
+            border-radius: 26px !important;
+        }
+
+        .boxelement{
+            flex-direction: column;
+        }
+
+        .boxelement img{
+            margin: auto !important;
+        }
+
+        #city{
+            padding: 10px 15px !important; 
+            display: flex !important;
+            justify-content: center !important;
+
+        }
+
+        .innerbox{
+            padding: 10px !important;
+        }
+
+        .innerbox label {
+            display: flex !important;
+            justify-content: center !important;
+        }
+
+        .row{
+            justify-content: center !important;
+        }
+
+        .navbar-toggler{
+            border: 2px solid black !important;
+        }
+
+        .nav-item{
+            margin: auto !important;
+        }
+
+    }
+
 </style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-warning bg-warning sticky-top fs-5">
         <div class="container-fluid">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5pmgnxvIofhYNZtMK0t3SR9idziu8H9r1mw&usqp=CAU" alt="" srcset="" style="width: 70px">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -274,8 +331,8 @@
         </div>
        </form>
 </div>
-    <div class="container" >
-        <div class="card" style="border-radius: 130px;">
+    <div class="container d-flex justify-content-center">
+        <div class="card" id="res1" style="border-radius: 130px; width:80vw;">
            <h2 style="text-align: center;">Our customer Reviews</h2>
            <div class="card my-4" id="insidecard" >
              
