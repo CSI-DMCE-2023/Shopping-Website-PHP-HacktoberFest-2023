@@ -14,6 +14,11 @@
     <title>Hello, world!</title>
 </head>
 <style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+
     .btn{
         border: 2px solid #e84118;
         font-size: 20px;
@@ -55,6 +60,10 @@
 
     .navbar-toggler:focus {
     box-shadow: 0 0 0 0 !important;
+    }
+
+    #goto:hover{
+        color: black;
     }
 
     @media screen and (max-width: 600px) {
@@ -116,7 +125,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a id="goto" class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -158,7 +167,7 @@
     <div class="container">
         <div class="aboutus" id="aboutus">
             <h2 style="text-align: center;" class="fw-bolder">About Us</h2>
-            <p class="lh-sm">Welcome to our website ! india's number 1 shopping website where you can find various products of your choice 
+            <p class="lh-sm" id="scroll2">Welcome to our website ! india's number 1 shopping website where you can find various products of your choice 
                 and can have your purchase through online mode. this is india's most trusted shopping website as we provide you an assurance of successfull payment without any lag and server error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quos ea tempora corporis! Necessitatibus, corporis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat earum iste voluptatum excepturi, rem temporibus perspiciatis nihil a nam debitis harum quo voluptas, impedit consectetur fuga quam perferendis ipsam inventore provident ducimus. Hic deserunt non quo odit! Accusamus, unde nemo?
             </p>
         </div>
@@ -461,7 +470,22 @@
 </footer>
 <!-- Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
-    
+    <script>
+        document.getElementById("goto").addEventListener("click", function(){
+        const targetElement = document.getElementById("scroll2");
+    // Or you can specify the Y-coordinate to scroll to, in pixels
+    const scrollYPosition = 50000; // Adjust this value as needed
+
+    if (targetElement) {
+        // Scroll to the target element
+        targetElement.scrollIntoView({ behavior: "smooth" });
+    } else {
+        // Scroll to a specific Y-coordinate
+        window.scrollTo({ top: scrollYPosition, behavior: "smooth" });
+    }
+});
+
+    </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="shopping.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
