@@ -159,6 +159,5 @@ document.getElementById("nextimage").addEventListener("click",()=>{
         alert("over");
     }
 });
-document.getElementById("logout").addEventListener("click",()=>{
-    console.log("ayush shukla");
-})
+
+
